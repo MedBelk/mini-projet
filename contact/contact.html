@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<style>
+		* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+height: 80px;
+width: 100%;
+
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+display: inline-block;
+margin:0 5px;
+padding: 0 6px;
+
+}
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		form {
+			background-color: #fff;
+			padding: 20px;
+			max-width: 800px;
+			margin: 0 auto;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+
+		label {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 2%;
+			font-weight: bold;
+		}
+
+		input[type="text"], textarea {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			margin-bottom: 20px;
+			font-size: 16px;
+		}
+
+		input[type="submit"] {
+			background-color: #0c1591;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+
+		input[type="submit"]:hover {
+			background-color: #45a049;
+		}
+
+		.payment-options {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin-top: 20px;
+		}
+
+		.payment-options img {
+			height: 50px;
+			margin-right: 10px;
+		}
+		p{
+			font-weight:bold ;
+		}
+		h1{
+			text-align: center;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<header>
+
+		<nav>
+            <h1 class="logo">Hamito's grocery store</h1>
+            <ul class="navbar">
+                <li><a href="../home/index.html">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+                <li><a href="../contact/contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+	<h1>Contact Us</h1>
+	<form action="" method="POST">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" required>
+
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" required></textarea>
+
+		<div class="payment-options">
+			<p>Payment options:</p>
+			<img src="visa.png">
+			<img src="mc.png" alt="Mastercard">
+			<img src="pp.png" alt="Paypal">
+		</div>
+
+		<input type="submit" value="Send">
+	</form>
+</body>
+</html>
