@@ -60,6 +60,7 @@ nav {
     align-items: center;
     height: 80px;
     width: 100%;
+    padding: 0px 20px;
 
 }
 
@@ -93,6 +94,7 @@ nav ul li a:hover {
 main ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 
 }
 
@@ -118,9 +120,7 @@ main ul li>p {
 }
 
 .logo {
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    margin: 0 5px;
+   height: 80%;
 
 }
 
