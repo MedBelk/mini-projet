@@ -6,6 +6,44 @@
     padding: 0;
     margin: 0;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    padding: 0px 20px;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0 6px;
+
+}
+
+
+nav ul li a {
+    box-shadow: inset 0 0 0 0 #86da36;
+    color: #354e2c;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+nav ul li a:hover {
+    box-shadow: inset 100px 0 0 0 #86da36;
+    color: white;
+    font-weight: 700;
+}
+
+
 h1 {
     display: block;
     font-size: 2.3em;
@@ -61,43 +99,6 @@ h1 {
     font-weight: 900;
     font-size: 2.7rem;
     margin-bottom: 10px;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    width: 100%;
-    padding: 0px 20px;
-
-}
-
-nav ul {
-    float: right;
-    margin-right: 20px;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 5px;
-    padding: 0 6px;
-
-}
-
-
-nav ul li a {
-    box-shadow: inset 0 0 0 0 #86da36;
-    color: #354e2c;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-}
-
-nav ul li a:hover {
-    box-shadow: inset 100px 0 0 0 #86da36;
-    color: white;
-    font-weight: 700;
 }
 
 main ul {
@@ -417,6 +418,12 @@ font-weight: 400;}
     justify-items: center;
 }
 
+
+
+
+/*----------------------------------------about-----------------------*/
+
+
 .end{
     font-size: .7rem ;
    }
@@ -425,11 +432,7 @@ font-weight: 400;}
     font-size: 1em;
 }
 
-
-
-
-
-
+/*----------------------------------------contact-----------------------*/
 
 .payment-options img {
     height: 25px;
@@ -452,16 +455,44 @@ input[type="submit"] {
 }
 
 
+}
+@media screen and (max-width: 768px)
+{
+
+    nav ul li a {
+font-size: 1.5rem;
+    }
+
+
+/*----------------------------------------home-----------------------*/
+
+
+    .hero {
+        height: 55vh;}
+
+
+/*----------------------------------------about-----------------------*/
 
 
 
 
+.end{
+    font-size: 1.7rem ;
+   }
 
+   .about{
+    font-size:2.5rem;
+}
 
-
-
-
-
+form {
+    background-color: #fff;
+    padding: 5px;
+    max-width: 800px;
+    height: 500px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
 
 
@@ -469,3 +500,4 @@ input[type="submit"] {
 
 
 }
+
