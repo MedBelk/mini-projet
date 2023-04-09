@@ -496,6 +496,14 @@ form {
 
 
 
+.titre {  
+    font-size: 2rem;
+}
+
+.gallery {
+    grid-template-columns: repeat(2, 2fr);
+    justify-items: center;
+}
 
 
 
