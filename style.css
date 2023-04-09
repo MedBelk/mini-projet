@@ -159,8 +159,7 @@ main ul li>p {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
-    margin: 20px;
-
+    margin: 20px 0px;
     border-radius: 5px;
    
 
