@@ -16,15 +16,16 @@
 </head>
 
 <body>
-    <header>
+    <header id="home">
 
         <nav>
             <img src="./assets/Logo-Hamito.png" alt="" class="logo">
             <ul class="navbar">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./gallery.html">Gallery</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contactus">Contact</a></li>
+                <li><a href="#aboutus">About</a></li>
             </ul>
 
         </nav>
@@ -66,11 +67,83 @@
             </li>
         </ul>
 
+        <h1 class="titre" id="gallery">Grocery Store Gallery</h1>
+        <div class="images">
+            <section class="gallery">
+                <a href="./assets/vegetables 1.jpg"><img src="./assets/vegetables 1.jpg" alt="Product 1"></a>
+                <a href="./assets/vegetables 2.jpg"><img src="./assets/vegetables 2.jpg" alt="Product 2"></a>
+                <a href="./assets/vegetables 3.jpg"><img src="./assets/vegetables 3.jpg" alt="Product 3"></a>
+                <a href="./assets/vegetables 4.jpg"><img src="./assets/vegetables 4.jpg" alt="Product 4"></a>
+    
+                <a href="./assets/fruits 1.jpg"><img src="./assets/fruits 1.jpg" alt="Product 4"></a>
+                <a href="./assets/fruits2.jpg"><img src="./assets/fruits2.jpg" alt="Product 5"></a>
+                <a href="./assets/fruits3.jpg"><img src="./assets/fruits3.jpg" alt="Product 6"></a>
+                <a href="./assets/fruits4.jpg"><img src="./assets/fruits4.jpg" alt="Product 7"></a>
+    
+    
+                <a href="./assets/drinks1.jpg"><img src="./assets/drinks1.jpg" alt="Product 7"></a>
+                <a href="./assets/drinks 2.jpg"><img src="./assets/drinks 2.jpg" alt="Product 8"></a>
+                <a href="./assets/drinks 3.jpg"><img src="./assets/drinks 3.jpg" alt="Product 9"></a>
+                <a href="./assets/drinks 4.jpg"><img src="./assets/drinks 4.jpg" alt="Product 10"></a>
+    
+                <a href="./assets/bake1.jpg"><img src="./assets/bake1.jpg" alt="Product 11"></a>
+                <a href="./assets/bake2.jpg"><img src="./assets/bake2.jpg" alt="Product 12"></a>
+                <a href="./assets/bake3.jpg"><img src="./assets/bake3.jpg" alt="Product 13"></a>
+                <a href="./assets/bake4.jpg"><img src="./assets/bake4.jpg" alt="Product 13"></a>
+            </section>
+    
+        </div>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"
+            integrity="sha512-kwJUhJJaTDzGp6VTPBbMQWBFUof6+pv0SM3s8fo+E6XnPmVmtfwENK0vHYup3tsYnqHgRDoBDTJWoq7rnQw2+g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"
+            integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            lightGallery(document.querySelector(".gallery"))
+        </script>
 
+<h1 id="contactus">Contact Us</h1>
+	<form action="" method="POST">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
 
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email" required>
 
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" rows="4"></textarea>
+
+		<p class="payment-options-title">Payment options:</p>
+		<div class="payment-options">
+			<img src="./assets/cib.png" alt="CIB">
+			<img src="./assets/alg.png" alt="Edahabia">
+			<img src="./assets/bnp.jpg" alt="BNP Paribas">
+		</div>
+
+		<input type="submit" value="Send">
+	</form>
+    <section id="aboutus">
+        <h1>About us</h1>
+        <p class="about">Welcome to Hamito's Grocery Store, your one-stop-shop for fresh, organic produce and
+          locally-sourced meats and dairy. We believe that eating healthy should be accessible and affordable for everyone,
+          and we're dedicated to providing our community with the best possible selection of nutritious and delicious foods.
+        </p>
+        <p class="about">Our store is owned and operated by a team of passionate foodies who share a commitment to
+          sustainability, social responsibility, and supporting local farmers and producers. We strive to foster a welcoming
+          and inclusive environment where everyone feels comfortable and empowered to make healthy choices.</p>
+        <p class="about">Thank you for choosing Hamito's Grocery Store, and we look forward to serving you soon!</p>
+      </section>
+    
+      <div class="end">
+        &copy; Hamito's Grocery Store. All rights reserved.
+      </div>
     </main>
+<footer>
 
+
+    
+</footer>
 </body>
 
 </html>

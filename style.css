@@ -7,6 +7,11 @@
     margin: 0;
 }
 
+
+    
+
+
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -364,9 +369,7 @@ h1 {
 @media screen and (max-width: 480px) {
 
     nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+       
         height: 80px;
         width: 100%;
         padding: 0px 20px;
