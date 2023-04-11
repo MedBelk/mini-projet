@@ -178,8 +178,8 @@ main ul li>p {
     border: 2px solid #464d437e;
     transition: 1s all cubic-bezier(0.08, 0.82, 1, 0.21);
     transition-delay: .2s;
-    height: 230px;
-    width: 380px;
+    height: 150px;
+    width: 250px;
 }
 
 .gallery img {
