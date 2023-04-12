@@ -148,6 +148,12 @@ main ul li>p {
 
 }
 
+.product.animate {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out; 
+}
+
+
 /* ---------------------------HOME END------------------------------ */
 
 /* ---------------------------GALLERY START------------------------------ */
@@ -287,6 +293,17 @@ h1 {
     text-align: center;
     font-size: larger;
     font-weight: 400;
+}
+.social-media{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 20px 0;
+    
+}
+.social-media img {
+    height: 50px;
+    margin-right: 10px;
 }
 
 
