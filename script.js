@@ -7,5 +7,6 @@ function darkmod() {
   } else {
     image.setAttribute("src", "./assets/darkmod.png");
   }
-  
+  document.getElementsByClassName("heroText")[0].style.backgroundColor =
+    "#252525";
 }
