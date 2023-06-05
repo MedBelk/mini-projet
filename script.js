@@ -10,3 +10,22 @@ function darkmod() {
   document.getElementsByClassName("heroText")[0].style.backgroundColor =
     "#252525";
 }
+
+var productItems = document.querySelectorAll('.product');
+          
+          
+productItems.forEach(function (item) {
+  
+  item.addEventListener('mouseover', function () {
+    
+    this.classList.add('animate');
+  });
+
+  
+  item.addEventListener('mouseout', function () {
+    
+    this.classList.remove('animate');
+  });
+});
+
+lightGallery(document.querySelector(".gallery"));

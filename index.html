@@ -27,8 +27,8 @@
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contactus">Contact</a></li>
                 <li><a href="#aboutus">About</a></li>
-
-       <img  onclick="darkmod()" style="cursor:pointer" src="./assets/darkmod.png" id="dark" alt="darkmod">
+            
+               <li><img  onclick="darkmod()" style="cursor:pointer" src="./assets/darkmod.png" id="dark" alt="darkmod"></li>
         </nav>
 
     </header>
@@ -66,25 +66,7 @@
                     <p>the sweetest and delicious cakes and bakery</p>
             </li>
         </ul>
-        <script>
-            
-            var productItems = document.querySelectorAll('.product');
-          
-          
-            productItems.forEach(function (item) {
-              
-              item.addEventListener('mouseover', function () {
-                
-                this.classList.add('animate');
-              });
-          
-              
-              item.addEventListener('mouseout', function () {
-                
-                this.classList.remove('animate');
-              });
-            });
-          </script>
+        
          
         <h1 class="titre" id="gallery">Grocery Store Gallery</h1>
         <div class="images">
@@ -118,9 +100,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"
             integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ=="
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script>
-            lightGallery(document.querySelector(".gallery"))
-        </script>
+        
 
 <script src="script.js"></script>
 
