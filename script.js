@@ -7,9 +7,19 @@ function darkmod() {
   } else {
     image.setAttribute("src", "./assets/darkmod.png");
   }
-  document.getElementsByClassName("heroText")[0].style.backgroundColor =
+    document.getElementsByClassName("heroText")[0].style.backgroundColor =
     "#252525";
+    document.getElementsByTagName("form")[0].style.backgroundColor ="#252525"; 
+    document.getElementsByClassName("images")[0].style.backgroundColor ="#252525"; 
+    document.getElementsByClassName("navbar")[0].style.fontWeight ="700"; 
+    
 }
+
+
+
+
+
+
 
 var productItems = document.querySelectorAll('.product');
           
